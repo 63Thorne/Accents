@@ -1,0 +1,45 @@
+h1{
+    color:blue;
+    font-weight: bold;
+    text-shadow: blue;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans' ;
+}
+
+.Audios{
+    padding: 15px;
+    
+}
+
+button{
+
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+
+.NameBlock{
+    padding: 2px;
+    display: flex;
+}
+
+.dropdownAudios{
+
+    display: flex;
+
+
+}
+
+.culture{
+    display: flex;
+}
+
+
+ul audio {
+    display: flex;
+}
+
