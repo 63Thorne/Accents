@@ -419,6 +419,34 @@ button29.addEventListener("click", (event) => {
 });    
 
 
+const button30 = document.getElementById("btn30");
+const audios30 = document.getElementById("audios30");
+
+audios30.style.display ="none";
+
+button30.addEventListener("click", (event) => {
+    if(audios30.style.display == "none"){
+        audios30.style.display ="block";
+    } else {
+        audios30.style.display ="none";
+    }
+});    
+
+
+const button31 = document.getElementById("btn31");
+const audios31 = document.getElementById("audios31");
+
+audios31.style.display ="none";
+
+button31.addEventListener("click", (event) => {
+    if(audios31.style.display == "none"){
+        audios31.style.display ="block";
+    } else {
+        audios31.style.display ="none";
+    }
+});    
+
+
 
 
 
