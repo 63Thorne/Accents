@@ -449,6 +449,93 @@ button31.addEventListener("click", (event) => {
 
 
 
+const button32 = document.getElementById("btn32");
+const audios32 = document.getElementById("audios32");
+
+audios32.style.display ="none";
+
+button32.addEventListener("click", (event) => {
+    if(audios32.style.display == "none"){
+        audios32.style.display ="block";
+    } else {
+        audios32.style.display ="none";
+    }
+});   
+
+
+
+const button33 = document.getElementById("btn33");
+const audios33 = document.getElementById("audios33");
+
+audios33.style.display ="none";
+
+button33.addEventListener("click", (event) => {
+    if(audios33.style.display == "none"){
+        audios33.style.display ="block";
+    } else {
+        audios33.style.display ="none";
+    }
+});    
+
+
+const button34 = document.getElementById("btn34");
+const audios34 = document.getElementById("audios34");
+
+audios34.style.display ="none";
+
+button34.addEventListener("click", (event) => {
+    if(audios34.style.display == "none"){
+        audios34.style.display ="block";
+    } else {
+        audios34.style.display ="none";
+    }
+});    
+
+
+
+const button35 = document.getElementById("btn35");
+const audios35 = document.getElementById("audios35");
+
+audios35.style.display ="none";
+
+button35.addEventListener("click", (event) => {
+    if(audios35.style.display == "none"){
+        audios35.style.display ="block";
+    } else {
+        audios35.style.display ="none";
+    }
+});    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
