@@ -5,6 +5,7 @@ h1{
     font-size: 45px;
     text-align: center;
     font-family: 'Lucida Sans' ;
+    align-items: center;
 }
 
 .Audios{
@@ -15,6 +16,7 @@ h1{
 .AudiosCeleb{
     padding: 15px;
     display: flex;
+    align-items: center;
     
 }
 
@@ -49,9 +51,20 @@ ul audio {
     display: flex;
 }
 
-.celebImgBox{
-    width: 20px ;
-    height: 20px; ;
+img{
+   height: 80px;
+   width: 80px ;
+   border-radius: 80%;
+   border: 8px solid red
 }
 
+.ListOfNames{
+    
+    align-content: center;
+}
+
+
+body{
+    align-items: center;
+}
 
