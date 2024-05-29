@@ -14,7 +14,7 @@ h1{
 
 .AudiosCeleb{
     padding: 15px;
-    display: flex;
+
     
 }
 
@@ -30,7 +30,7 @@ button{
 
 .NameBlock{
     padding: 2px;
-    display: flex;
+
 }
 
 .dropdownAudios{
@@ -38,10 +38,6 @@ button{
     display: flex;
 
 
-}
-
-.culture{
-    display: flex;
 }
 
 
@@ -53,5 +49,7 @@ ul audio {
     width: 20px ;
     height: 20px; ;
 }
+
+a{ display: flex;}
 
 
