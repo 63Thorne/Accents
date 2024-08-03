@@ -272,4 +272,17 @@ buttonCeleb20.addEventListener("click", (event) => {
     }
 });
 
+const buttonCeleb21 = document.getElementById("btnCeleb21");
+const audiosCeleb21 = document.getElementById("audiosCeleb21");
+
+audiosCeleb21.style.display ="none";
+
+buttonCeleb21.addEventListener("click", (event) => {
+    if(audiosCeleb21.style.display == "none"){
+        audiosCeleb21.style.display ="block";
+    } else {
+        audiosCeleb21.style.display ="none";
+    }
+});
+
 
