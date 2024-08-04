@@ -7,8 +7,16 @@ h1{
     font-family: 'Lucida Sans' ;
 }
 
+body{
+  
+}
+
 .Audios{
     padding: 15px;
+
+    
+    margin: auto;
+    
     
 }
 
@@ -19,18 +27,34 @@ h1{
 }
 
 button{
-
+    display: block;
     width: 400px;
     height: 35px;
     padding: 10px;
     background-color: blue;
     color: antiquewhite;
+    border-radius: 15px;
+    place-content: ce;
+    margin: auto;
 }
 
 
 .NameBlock{
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+  
+
+    
+    
+
+}
+
+.Culture{
+    display: flex;
 }
 
 .dropdownAudios{
@@ -43,6 +67,7 @@ button{
 
 ul audio {
     display: flex;
+
 }
 
 .celebImgBox{
@@ -50,6 +75,25 @@ ul audio {
     height: 20px; ;
 }
 
-a{ display: flex;}
+a{  padding: 15px;
+    display: flex;
+    display: grid;
+    height: 25px;
+    width: 190px;
+    background: blue;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    place-items: centre ;
+ }
+
+
+.AnchorButtons {
+    padding: 50px;
+}
+
+
 
 
